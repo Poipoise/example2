@@ -6,6 +6,7 @@ var state = states.IDLE
 var player
 var attacking = false
 var health = 3
+var minimap_icon = "mob"
 
 func _physics_process(delta):
 	choose_action()
